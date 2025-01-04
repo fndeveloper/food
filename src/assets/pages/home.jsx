@@ -1,4 +1,9 @@
 import React from 'react'
+import fires from "../img/fries.png"
+import burger from "../img/burger.png"
+import zinger from "../img/zinger.png"
+import roll from "../img/roll.png"
+
 
 export default function Home() {
   return (
@@ -66,14 +71,41 @@ export default function Home() {
 
 </div>
     {/* CAROUSEL END */}
-<div className="container-fluid">
-    <div className="col-lg-3  col-md-6 col-12">
-        
+<div className="container-fluid  d-flex flex-lg-row flex-column m-0 p-0 divhov">
+    <div className="col-lg-3  hdiv py-5 col-md-6 col-md-6 col-12 mx-lg-0 mx-auto  ">
+        <img src={fires} alt="" className='img-fluid ' />
+        <div className="hover1">
+        </div>
+  
+          <h2 className='text-center display-6 text-white fw-bolder  '>Fries</h2>
+ <h5 className='text-center  text-white fw-bolder'>4 Products Available</h5>
+
     </div>
-    <div className="col-lg-3 col-md-6 col-12"></div>
-    <div className="col-lg-3 col-md-6 col-12"></div>
-    <div className="col-lg-3 col-md-6 col-12"></div>
+    <div className="col-lg-3 hdiv  py-5 col-md-6 col-md-6 col-12 mx-lg-0 mx-auto">
+    <img src={burger} alt=""  className='img-fluid'/>
+      <div className="hover1">
+        </div>
+          <h2 className='text-center display-6 text-white fw-bolder'>Fries</h2>
+ <h5 className='text-center  text-white fw-bolder'>4 Products Available</h5>
+    </div>
+    <div className="col-lg-3  hdiv py-5 col-md-6 col-md-6 col-12 mx-lg-0 mx-auto">
+    <img src={zinger} alt=""  className='img-fluid'/>
+      <div className="hover1">
+        </div>
+          <h2 className='text-center display-6 text-white fw-bolder'>Fries</h2>
+ <h5 className='text-center  text-white fw-bolder'>4 Products Available</h5>
+
+    </div>
+    <div className="col-lg-3 hdiv  py-5 col-md-6 col-md-6 col-12 mx-lg-0 mx-auto">
+    <img src={roll} alt=""  className='img-fluid'/>
+      <div className="hover1">
+        </div>
+          <h2 className='text-center display-6 text-white fw-bolder'>Fries</h2>
+ <h5 className='text-center  text-white fw-bolder'>4 Products Available</h5>
+    </div>
+
 </div>
+<div className="container my-5 py-5"></div>
     </>
   )
 }
