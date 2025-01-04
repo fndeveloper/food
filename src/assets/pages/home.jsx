@@ -30,15 +30,15 @@ export default function Home() {
   <div className="carousel-inner">
     <div className="carousel-item active">
         <div className="i2 d-flex flex-lg-row flex-column justify-content-center align-items-center">
-<div className="col-lg-5 col-12 ps-4">
+<div className="col-lg-5 col-12 ps-4 d-flex flex-column align-items-lg-start align-items-center ">
     <h5 className='col-yellow fw-bold '>FAST FOOD BURGERS</h5>
-    <h1 className='display-1 text-white fw-bold head1'>BEST <br /> BURGERS</h1>
-<p className='text-white text-capitalize fs-5'>secret family recipes are the stuff of legends and stack <br /> burger blend is no exception</p>
+    <h1 className='display-1 text-white fw-bold head1'>BEST  BURGERS</h1>
+<p className='text-white text-capitalize fs-5 text-lg-start text-center'>secret family recipes are the stuff of legends and stack <br /> burger blend is no exception</p>
 <button className='btn1  col-lg-3' >Order Now
 <i className="fas fa-shipping-fast span-hov d-flex flex-row align-items-center justify-content-center"></i>
 </button>
 </div>
-<div className="col-lg-7 col-12 i3">
+<div className="col-lg-7 col-8 mx-lg-0 mx-auto i3">
 
 </div>
 
@@ -48,15 +48,15 @@ export default function Home() {
     <div className="carousel-item">
     <div className="i1 d-flex flex-lg-row flex-column justify-content-center align-items-center">
 
-<div className="col-lg-5 col-12 ps-4">
+<div className="col-lg-5 col-12 ps-4 d-flex flex-column align-items-lg-start align-items-center">
     <h5 className='col-yellow fw-bold '>FAST FOOD BURGERS</h5>
     <h1 className='display-2 text-white fw-bold head1'>BEEF BURGERS</h1>
-<p className='text-white text-capitalize fs-5'>secret family recipes are the stuff of legends and stack <br /> burger blend is no exception</p>
+<p className='text-white text-capitalize fs-5 text-lg-start text-center'>secret family recipes are the stuff of legends and stack <br /> burger blend is no exception</p>
 <button className='btn1  col-lg-3' >Order Now
 <i className="fas fa-shipping-fast span-hov d-flex flex-row align-items-center justify-content-center"></i>
 </button>
 </div>
-<div className="col-lg-7 col-12 i4">
+<div className="col-lg-7 col-8 mx-lg-0 mx-auto  i4">
 
 </div>
     </div>

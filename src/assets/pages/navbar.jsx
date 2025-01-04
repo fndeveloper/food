@@ -34,10 +34,10 @@ export default function Navbar() {
     {/* TOP */}
 {/* NAV */}
     <nav>
-    <div className="animate__fadeIn container-fluid d-flex flex-row d-lg-flex d-none justify-content-center align-items-center tophead m-0 px-4   shadow-lg top1">
+    <div className="animate__fadeIn container-fluid d-flex flex-row d-lg-flex  justify-content-center align-items-center tophead m-0 px-lg-4   shadow-lg top1">
 
    <div className="col-4 d-flex  align-items-center">
-   <i class="fa-solid fa-bars span-head fs-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"></i>
+   <i class="fa-solid fa-bars span-head fs-4 fgf" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"></i>
    
    </div>
    <div className="col-4 d-flex  align-items-center justify-content-center">
@@ -50,7 +50,7 @@ export default function Navbar() {
 
    </div>
    <div className="col-4 d-flex justify-content-end  align-items-center">
-<button className='btn1 me-1'>Order Now
+<button className='btn1 me-1 col-lg-4 col-9 d-lg-flex d-none'>Order Now
 <i className="fas fa-shipping-fast span-hov d-flex flex-row align-items-center justify-content-center"></i>
 </button>
 
