@@ -38,7 +38,7 @@ export default function Home() {
 <i className="fas fa-shipping-fast span-hov d-flex flex-row align-items-center justify-content-center"></i>
 </button>
 </div>
-<div className="col-lg-7 col-8 mx-lg-0 mx-auto i3">
+<div className="col-lg-7 col-md-7 col-sm-8 col-10  mx-lg-0 mx-auto i3">
 
 </div>
 
@@ -56,31 +56,14 @@ export default function Home() {
 <i className="fas fa-shipping-fast span-hov d-flex flex-row align-items-center justify-content-center"></i>
 </button>
 </div>
-<div className="col-lg-7 col-8 mx-lg-0 mx-auto  i4">
+<div className="col-lg-7 col-md-7 col-sm-8 col-10  mx-lg-0 mx-auto  i4">
 
 </div>
     </div>
     </div>
 
   </div>
-  {/* <button
-    className="carousel-control-prev"
-    type="button"
-    data-bs-target="#carouselExampleIndicators"
-    data-bs-slide="prev"
-  >
-    <span className="carousel-control-prev-icon" aria-hidden="true" />
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button
-    className="carousel-control-next"
-    type="button"
-    data-bs-target="#carouselExampleIndicators"
-    data-bs-slide="next"
-  >
-    <span className="carousel-control-next-icon" aria-hidden="true" />
-    <span className="visually-hidden">Next</span>
-  </button> */}
+
 </div>
     {/* CAROUSEL END */}
 <div className="container-fluid">

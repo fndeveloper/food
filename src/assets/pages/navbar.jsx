@@ -43,14 +43,14 @@ export default function Navbar() {
    <div className="col-4 d-flex  align-items-center justify-content-center">
  
   
-        <img src={logo} className='img-fluid col-4' alt="" />
+        <img src={logo} className='img-fluid col-lg-4 col-7' alt="" />
      
 
   
 
    </div>
    <div className="col-4 d-flex justify-content-end  align-items-center">
-<button className='btn1 me-1 col-lg-4 col-9 d-lg-flex d-none'>Order Now
+<button className='btn1 me-2 col-lg-4  d-lg-flex d-none justify-content-center align-items-center text-center'>Order Now
 <i className="fas fa-shipping-fast span-hov d-flex flex-row align-items-center justify-content-center"></i>
 </button>
 
