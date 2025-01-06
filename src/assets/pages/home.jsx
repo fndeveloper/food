@@ -72,8 +72,10 @@ export default function Home() {
 </div>
     {/* CAROUSEL END */}
 <div className="container-fluid  d-flex flex-lg-row flex-column m-0 p-0 divhov">
-    <div className="col-lg-3  hdiv py-5 col-md-6 col-md-6 col-12 mx-lg-0 mx-auto  ">
-        <img src={fires} alt="" className='img-fluid ' />
+    <div className="col-lg-3  hdiv  py-lg-4 col-md-6 col-md-6 col-12 mx-lg-0 mx-auto  ">
+     <div className="col-lg-12 col-6 mx-auto">
+        <img src={fires} alt="" className='img-fluid  ' />
+        </div>
         <div className="hover1">
         </div>
   
@@ -81,23 +83,31 @@ export default function Home() {
  <h5 className='text-center  text-white fw-bolder'>4 Products Available</h5>
 
     </div>
-    <div className="col-lg-3 hdiv  py-5 col-md-6 col-md-6 col-12 mx-lg-0 mx-auto">
+    <div className="col-lg-3 hdiv   py-lg-4 col-md-6 col-md-6 col-12 mx-lg-0 mx-auto">
+    <div className="col-lg-12 col-6 mx-auto">
     <img src={burger} alt=""  className='img-fluid'/>
+    </div>
       <div className="hover1">
         </div>
           <h2 className='text-center display-6 text-white fw-bolder'>Fries</h2>
  <h5 className='text-center  text-white fw-bolder'>4 Products Available</h5>
     </div>
-    <div className="col-lg-3  hdiv py-5 col-md-6 col-md-6 col-12 mx-lg-0 mx-auto">
+    <div className="col-lg-3  hdiv  py-lg-4 col-md-6 col-md-6 col-12 mx-lg-0 mx-auto">
+    <div className="col-lg-12 col-6 mx-auto">
     <img src={zinger} alt=""  className='img-fluid'/>
+</div>
       <div className="hover1">
         </div>
           <h2 className='text-center display-6 text-white fw-bolder'>Fries</h2>
  <h5 className='text-center  text-white fw-bolder'>4 Products Available</h5>
 
     </div>
-    <div className="col-lg-3 hdiv  py-5 col-md-6 col-md-6 col-12 mx-lg-0 mx-auto">
+    <div className="col-lg-3 hdiv   py-lg-4 col-md-6 col-md-6 col-12 mx-lg-0 mx-auto">
+    <div className="col-lg-12 col-6 mx-auto">
+
     <img src={roll} alt=""  className='img-fluid'/>
+    </div>
+
       <div className="hover1">
         </div>
           <h2 className='text-center display-6 text-white fw-bolder'>Fries</h2>
