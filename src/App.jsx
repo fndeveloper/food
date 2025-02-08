@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 // PAGES
 import Navbar from './assets/pages/navbar';
 import Home from './assets/pages/home';
+
 // PAGES
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
       <Routes>
         <Route>
         <Route path='/' element={<Home />}/>
+  
+
         </Route>
       </Routes>
 
