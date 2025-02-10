@@ -10,8 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.6.1",
     "@popperjs/core": "^2.11.8",
-    "antd": "^5.22.7",
+    "antd": "^5.23.4",
     "bootstrap": "^5.3.3",
     "chart.js": "^4.4.7",
     "flowbite": "^3.1.2",
@@ -20,7 +21,9 @@
     "react-chartjs-2": "^5.3.0",
     "react-dom": "^18.3.1",
     "react-router": "^6.28.1",
-    "react-router-dom": "^6.28.1"
+    "react-router-dom": "^6.28.1",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
