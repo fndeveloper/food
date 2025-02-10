@@ -17,7 +17,7 @@ import { Card, Image } from "antd";
 
 export default function Home() {
   const products = [
-    { image: product1, name: 'Product 1', price: 100 },
+    { image: product1, name: 'new abbaya', price: 100 },
     { image: product2, name: 'Product 2', price: 200 },
     { image: product3, name: 'Product 3', price: 300 },
     { image: product4, name: 'Product 4', price: 400 },
