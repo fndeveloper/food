@@ -21,22 +21,22 @@ body{
 }
 .img1{
 
-  background-image: url("assets/img/Website_Homepage_Slider_Desktop_3_1179x.progressive.jpg");
-  height: 60vh !important;
+  background-image: url("assets/img/banner-1.png");
+  height: 73vh !important;
   object-fit: cover !important;
 background-position: center !important;
   background-size: cover !important;
 }
 .img2{
 
-  background-image: url("assets/img/Website_Homepage_Slider_Desktop_KHIMAR_1_1179x.progressive.jpg");
-  height: 60vh !important;
+  background-image: url("assets/img/banner-2.png");
+  height: 73vh !important;
   object-fit: cover;
 background-position: center;
   background-size: cover;
 }.img3{
-  background-image: url("assets/img/Website_Homepage_Slider_Desktop_NAMAZ_CHADARS_1_1179x.progressive.png.jpg");
-  height: 60vh !important;
+  background-image: url("assets/img/banner-3.png");
+  height: 73vh !important;
   object-fit: cover;
 background-position: center;
   background-size: cover;
